@@ -3,6 +3,7 @@ ABM market model based on the natural gas market written in Python. The model is
 
 ## .ipynb
 The Notebook files contain the model and the visualization. The notebook files run Python code. Both in markdown blocks and within the code notes have been made to make reading the code easier and explain the thoughts behind the coding.
+GitHub might have some problems at certain times to display .ipynb files. When you observe te error "Sorry, something went wrong" copy the link (ending with .ipynb) and paste in https://nbviewer.jupyter.org/
 
 ## .json
 In order to communicate information of the model between the different files and to help the visualization of the model run results. The Json format (although based on JavaScript) is human readable in any text editor.
