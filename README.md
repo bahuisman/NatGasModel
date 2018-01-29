@@ -8,6 +8,9 @@ GitHub might have some problems at certain times to display .ipynb files. When y
 ## .json
 In order to communicate information of the model between the different files and to help the visualization of the model run results. The Json format (although based on JavaScript) is human readable in any text editor.
 
+## .pickle
+A multilevel dataframe is to complicated to be communicated by Json file. Therefor we use a Python dedicated file type. However using dataframes is computing intensive, so for simpler operation we keep using .json files and arrays.
+
 ## .xlsx
 The excel files are mainly used to import data and configure a model run. It contains parameterization and should follow a precise predefined format in order to be readable by the .ipynb files.
 
